@@ -2,7 +2,9 @@
   "name": "@ehub-web/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve ehub-web"
+  },
   "private": true,
   "dependencies": {
     "@angular/cdk": "^20.2.5",
