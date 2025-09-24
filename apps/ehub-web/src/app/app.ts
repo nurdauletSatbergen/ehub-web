@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+import { MatButton } from '@angular/material/button';
 
 @Component({
-  imports: [NxWelcome, RouterModule],
+  imports: [RouterModule, MatButton],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',
